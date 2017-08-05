@@ -11,7 +11,7 @@ theme = "prologue"
 [[params.social]]
   medium = "email"
   icon = "envelope"
-  link = "hi@sar.ai"
+  link = "mailto:hi@sar.ai"
   
 [[params.social]]
   medium = "github"

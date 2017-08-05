@@ -2182,8 +2182,9 @@
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				background-color: #f5fafa;
 				background-image: url("../img/banner2.png");
+       
 			}
 
 			#main > section.two {
