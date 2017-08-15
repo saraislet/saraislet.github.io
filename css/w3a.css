@@ -483,9 +483,9 @@ a {
 			left: 0;
 			top: 0;
 		}
-
+/* 41484c */
     .icon {
-    color: #41484c;
+    color: #555555;
     -moz-transition: color .35s ease-in-out;
     -webkit-transition: color .35s ease-in-out;
     -ms-transition: color .35s ease-in-out;
@@ -695,7 +695,8 @@ a {
     outline: none;
     white-space: normal;
     float: none;
-    color: #888
+    color: #AAA;
+    font-size: 1.2em
 }
 .w3-bar-block.w3-center .w3-bar-item {
     text-align: center
@@ -1528,8 +1529,6 @@ a {
     -ms-transition: background-color .35s ease-in-out;
     transition: background-color .35s ease-in-out
 } 
-
-/* TODO: fix transition here */
 
 .w3-hover-gray:hover,
 .w3-hover-grey:hover,
