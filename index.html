@@ -49,7 +49,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div id="logo">
       <span class="image avatar48"><img src="img/trefoil-cherry-sm.png" alt="trefoil logo" /></span>
       <h1 id="title">Sarai Rosenberg</h1>
-      <!-- <p class="w3-text-grey">Mathematician in Product</p> -->
       <p>Mathematician in Product</p>
     </div>
   </div>
@@ -65,7 +64,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="https://github.com/Saraislet" class="fa fa-github icon"><i></i></a> &nbsp;
     <a href="https://medium.com/@anna.sarai.rosenberg" class="fa fa-medium icon"><i></i></a> &nbsp;
     <a href="https://codepen.io/saraislet/" class="fa fa-codepen icon"><i></i></a>
-    <!-- <a href="https://codepen.io/saraislet/"><i class="fa fa-codepen fa-2x w3-hover-opacity"></i></a> -->
   </div>
 </nav>
 
@@ -112,6 +110,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       </div>
       <div class="w3-third">
         <div class="w3-display-container margin-small w3-card">
+          <img src="img/AL-EUI-comparison.png" alt="3 versions of Agiloft's End User Interface" style="width:100%; cursor:zoom-in" class="w3-hover-opacity" onclick="document.getElementById('modal-EUI').style.display='block'">
+          <div class="w3-container w3-white">
+            <p><b>Agiloft End User Interface</b></p>
+            <p>Based on guidance from a UI consultant, I implemented striking changes to Agiloft's end user interface.</p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-display-container margin-small w3-card">
           <a href="https://medium.com/shenomads/respectful-collection-of-demographic-data-56de9fcb80e2" target="_new"><img src="img/ideal-gender3.png" alt="Guidelines for Respectful Collection of Demographic Data" style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i></a>
           <div class="w3-container w3-white">
             <p><b>Guidelines for Respectful Collection of Demographic Data</b></p>
@@ -119,6 +126,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           </div>
         </div>
       </div>
+    </div>
+    
+    <!-- Second Photo Grid-->
+    <div class="w3-display-container">
       <div class="w3-third">
         <div class="w3-display-container margin-small w3-card">
           <a href="https://medium.com/@anna.sarai.rosenberg/designing-products-for-abuse-7d6ca583ff7a" target="_new"><img src="img/2005-06-03-cradle2-sm2.jpg" alt="Image shows a red fractal on a white background, roughly shaped like a cradle." style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i></a>
@@ -128,10 +139,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           </div>
         </div>
       </div>
-    </div>
-    
-    <!-- Second Photo Grid-->
-    <div class="w3-display-container">
       <div class="w3-third">
         <div class="w3-display-container margin-small w3-card">
           <a href="https://blog.prototypr.io/ui-of-likes-on-social-media-dfcd3baa4081" target="_new"><img src="img/fb-command_line-suggestion.png" alt="Facebook reaction UI suggestion" style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i></a>
@@ -150,15 +157,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           </div>
         </div>
       </div>
-      <div class="w3-third">
-        <div class="w3-display-container margin-small w3-card">
-          <img src="img/AL-EUI-comparison.png" alt="3 versions of Agiloft's End User Interface" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Agiloft End User Interface</b></p>
-            <p>Based on guidance from a UI consultant, I implemented striking changes to Agiloft's end user interface.</p>
-          </div>
-        </div>
-      </div>
       <!-- <div class="w3-third w3-display-container"> -->
         <!-- g src="img/404-record.png" alt="Record #404" style="width:100%" class=""> -->
         <!-- <div class="w3-container w3-white"> -->
@@ -167,14 +165,22 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         <!-- </div> -->
       <!-- </div>  -->
     </div>
+    
+    <!-- Modal details for portfolio items -->
+    <div id="modal-EUI" class="w3-modal" onclick="this.style.display='none'">
+      <span class="modal-button w3-hover-cherry w3-xlarge w3-display-topright">&times;</span>
+      <div class="w3-modal-content animate-zoom w3-border w3-card-4">
+        <img src="img/AL-EUI-comparison.png" style="width:100%">
+      </div>
+    </div>
 
     <!-- Images -->
     <!-- <div class="w3-row-padding w3-padding-16" id="about"> -->
       <!-- <div class="w3-col m6"> -->
-        <!-- <img src="img/image.jpg" alt="" style="width:100%"> -->
+        <!-- <img src="img/median1.jpg" alt="" style="width:100%"> -->
       <!-- </div> -->
       <!-- <div class="w3-col m6"> -->
-        <!-- <img src="img/image.jpg" alt="" style="width:100%"> -->
+        <!-- <img src="img/median2.jpg" alt="" style="width:100%"> -->
       <!-- </div> -->
     <!-- </div> -->
     <div class="w3-container w3-hide-small">
@@ -184,8 +190,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <section id="about">
       <div class="w3-container w3-padding-large" style="margin-bottom:32px">
         <h2><b>About Me</b></h2>
-        <p class="alt">I'm looking for opportunities primarily in technical product or program management. I excel at process improvement, agile SDLC, and gathering business or technical requirements. I have experience with SaaS, cloud security, education, data analysis, and CRM/contract management systems.
-</p>
+        <p class="alt">I'm looking for opportunities primarily in technical product or program management. I excel at process improvement, agile SDLC, and gathering business or technical requirements. I have experience with SaaS, cloud security, education, data analysis, and CRM/contract management systems.</p>
         <hr>
       </div>
     </section>
