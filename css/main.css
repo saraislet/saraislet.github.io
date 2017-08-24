@@ -73,22 +73,24 @@ h1.alt {
   h1.alt strong {
     color: #fff;
   }
-
+  
 h3.alt {
   color: #ccc;
   font-weight:100;
 }
   
 p.alt {
-  /* text-align: center; */
-  max-width: 600px;
-  min-width: 40em;
   margin: auto;
-  font-size: 17pt;
+  text-align: left;
+  width: 70%;
+  max-width: 690px;
+  min-width: 20em;
+  font-size: 16pt;
+  line-height: 1.75em;
   }
 
 .margin-small {
-    margin: 6px!important
+    margin: 8px!important
 }
   
 .fade {
@@ -156,7 +158,7 @@ p.alt {
 .main,
 #main {
     /* transition: margin-left .4s */
-    font-weight: 300;
+    font-weight: 100;
 		line-height: 1.75em;
     color: #444;
 }
@@ -204,17 +206,9 @@ p.alt {
         background-position: left bottom;
 			}
 
-			#main > section.two {
-				background-color: #f5fafa;
-			}
-
-			#main > section.three {
-				background-color: #ecf1f1;
-			}
-
-			#main > section.four {
-				background-color: #e8edec;
-			}
+			/* #main > section#skills { */
+				/* text-align: left; */
+			/* } */
   
 /* Image */
 
