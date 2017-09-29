@@ -3,15 +3,15 @@
 /* A11F2B */
 a {
     text-decoration: none;
-		color: #7384FF; /* 7384FF 5536F7 */
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.75);
-		-moz-transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-webkit-transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-ms-transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		outline: 0;
+	color: #7384FF; /* 7384FF 5536F7 */
+	border-bottom: dotted 1px rgba(128, 128, 128, 0.75);
+	-moz-transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-webkit-transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-ms-transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	transition: color 0.3s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	outline: 0;
 }
-  a:hover {
+    a:hover {
 			color: #ED2E3F; /* ED2E3F, A11F2B */
 			border-bottom-color: rgba(255, 255, 255, 0);
   }
