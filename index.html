@@ -13,7 +13,7 @@
   <link rel="manifest" href="manifest.json">
   <link rel="mask-icon" href="safari-pinned-tab.svg" color="#4200cf">
   <meta name="theme-color" content="#ED2E3F">
-  <meta name="description" content="Sarai Rosenberg, Mathematician in Product. SF, CA">
+  <meta name="description" content="Sarai Rosenberg, Mathematician in Tech. SF, CA">
   <meta name="keywords" content="mathematics, mathematician, software, tech, product management, program management, UX, UI, design, humane design, humane tech, user experience, accessibility">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,6 +27,9 @@
   <meta name="twitter:image:alt" content="Fractal spiral with red arms on a black background.">
   <meta name="twitter:site" content="@saraislet">
 
+  <!-- Open links in a new tab or window -->
+  <base target="_blank">
+
   <!-- Google Analytics script -->
   <!-- <script src="js/analytics.js"></script> -->
   <script>
@@ -39,7 +42,8 @@
     ga('send', 'pageview');
   </script>
 </head>
-<link rel="stylesheet" href="css/w3a.css"><link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/w3a.css">
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> 
 <!-- alternates: Archivo, Lato, Roboto, Raleway -->
 <!-- hues: 61131A, 871A24, a11f2b, ED2E3F, F07781, ff9999 -->
@@ -58,7 +62,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div id="logo">
       <span class="image avatar48"><img src="img/trefoil-cherry-sm.png" alt="trefoil logo" /></span>
       <h1 id="title">Sarai Rosenberg</h1>
-      <p>Mathematician in Product</p>
+      <p>Mathematician in Tech</p>
     </div>
   </div>
   <div class="w3-bar-block">
@@ -87,8 +91,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <section id="intro" class="one dark cover">
       <div class="w3-container">
         <center><h1 class="alt">Hi! I'm <strong>Sarai Rosenberg</strong>.</h1>
-        <h3 class="alt">I'm a mathematician in tech working on product development,<br />
-                  product design, UX, and humane design.</h3></center>
+        <h3 class="alt">I'm a mathematician in tech working on <br />
+                  product development, UX, and humane design.</h3></center>
       </div>
     </section>
   
@@ -97,84 +101,134 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <!-- </div> -->
   
     <!-- Portfolio -->
-    <section id="portfolio">
+    <section id="portfolio" style="padding-top:2em">
       <!-- <img src="img/avatar.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"> -->
       <div class="w3-container w3-center">
         <h2><b>Portfolio</b></h2>
-        <p class="alt">As a Technical Program Manager at Agiloft and as a Product Owner for Idera, I've guided product development from concept to launch for over 30 internal, B2B, and B2D SaaS projects. Projects included improvements to UX, UI, documentation, and features supporting scalable implementation of large projects.</p>
+
+        <!-- <h3><b>Current Work</b></h3> -->
+        <p class="alt">I'm currently working on several <a href="https://github.com/Saraislet">open-source</a> projects.</p>
+      </div>
+
+      <div class="photo-grid w3-padding-32">
+        <div class="w3-display-container">
+          <div class="w3-third" style="margin: auto">
+            <div class="w3-display-container margin-small w3-card">
+              <div style="position:relative">
+                <a href="https://docs.google.com/document/d/1DEG3YQdK9DUapkh737I_Px3GQLEZ3EnjVVPX0hj2dA0/edit?usp=sharing" target="_new"><img src="img/sturm_mockup_2.png" alt="Receiptacle mockup of receipts database UI" style="width:100%" class="w3-hover-opacity portfolio-image"><i class="fa fa-google fa-fw fa-2x portfolio-overlay"></i><i class="fa fa-external-link fa-fw portfolio-overlay-bottom"></i></a>
+              </div>
+              <div class="w3-container w3-white">
+                <p><b>Receiptacle PRD</b></p>
+                <p>I wrote a design and began writing the back-end for a receipts database to work alongside blocklists.</p>
+                <p>(Python, Flask, React, MySQL)</p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-third" style="margin: auto">
+            <div class="w3-display-container margin-small w3-card">
+              <div style="position:relative">
+                <a href="https://github.com/Saraislet/NaziBlockBot" target="_new"><img src="img/naziblockbot2.png" alt="Twitter bot to document receipts for a Nazi blocklist" style="width:100%" class="w3-hover-opacity portfolio-image"><i class="fa fa-github fa-fw fa-2x portfolio-overlay"></i><i class="fa fa-external-link fa-fw portfolio-overlay-bottom"></i></a>
+              </div>
+              <div class="w3-container w3-white">
+                <p><b>NaziBlockBot</b></p>
+                <p>I built a Twitter bot to insert tweets from DMs into the Receiptacle database.</p>
+                <p>(Python, MySQL)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-container w3-center">
+        <div class="w3-display-container" style="padding-top:16px !important">
+          <h3><b>Past Work</b></h3>
+          <p class="alt">As a Technical Program Manager at Agiloft and as a Product Owner for Idera, I guided product development from concept to launch for over 30 internal, B2B, and B2D SaaS projects. Projects included improvements to UX, UI, documentation, and features supporting scalable implementation of large projects.</p>
+        </div>
       </div>
     </section>
     
     <!-- First Photo Grid-->
-    
-    <div class="w3-display-container">
-      <div class="w3-third">
-        <div class="w3-display-container margin-small w3-card">
-          <a href="https://medium.com/women-in-product/how-to-make-fiends-and-influence-product-cfb816d88d9c" target="_new"><img src="img/AL-contact_entry-comparison3.png" alt="Agiloft Contact Entry comparison" style="width:100%" class="w3-hover-opacity portfolio-image"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i></a>
-          <div class="w3-container w3-white">
-            <p><b>Agiloft Contact Entry</b></p>
-            <p>I streamlined Agiloft's contact entry by removing pop-up windows, and allowing the user to enter contacts into the same window seamlessly.</p>
+    <div class="photo-grid">
+      <div class="w3-display-container">
+        <div class="w3-third">
+          <div class="w3-display-container margin-small w3-card">
+            <div style="position:relative">
+              <a href="https://medium.com/women-in-product/how-to-make-fiends-and-influence-product-cfb816d88d9c" target="_new"><img src="img/AL-contact_entry-comparison3.png" alt="Agiloft Contact Entry comparison" style="width:100%" class="w3-hover-opacity portfolio-image"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i><i class="fa fa-external-link fa-fw portfolio-overlay-bottom"></i></a>
+            </div>
+            <div class="w3-container w3-white">
+              <p><b>Agiloft Contact Entry</b></p>
+              <p>I streamlined Agiloft's contact entry by removing pop-up windows, and allowing the user to enter contacts into the same window seamlessly.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third">
+          <div class="w3-display-container margin-small w3-card">
+            <img src="img/AL-EUI-comparison.png" alt="3 versions of Agiloft's End User Interface" style="width:100%; cursor:zoom-in" class="w3-hover-opacity" onclick="document.getElementById('modal-EUI').style.display='block'">
+            <div class="w3-container w3-white">
+              <p><b>Agiloft End User Interface</b></p>
+              <p>Based on guidance from a UI consultant, I implemented striking changes to Agiloft's end user interface.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third">
+          <div class="w3-display-container margin-small w3-card">
+            <div style="position:relative">
+              <a href="https://medium.com/shenomads/respectful-collection-of-demographic-data-56de9fcb80e2" target="_new"><img src="img/ideal-gender3.png" alt="Guidelines for Respectful Collection of Demographic Data" style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i><i class="fa fa-external-link fa-fw portfolio-overlay-bottom"></i></a>
+            </div>
+            <div class="w3-container w3-white">
+              <p><b>Guidelines for Respectful Collection of Demographic Data</b></p>
+              <p>Demographic data may be critical to your mission. This article establishes guidelines, explains some reasoning, and provides examples.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="w3-third">
-        <div class="w3-display-container margin-small w3-card">
-          <img src="img/AL-EUI-comparison.png" alt="3 versions of Agiloft's End User Interface" style="width:100%; cursor:zoom-in" class="w3-hover-opacity" onclick="document.getElementById('modal-EUI').style.display='block'">
-          <div class="w3-container w3-white">
-            <p><b>Agiloft End User Interface</b></p>
-            <p>Based on guidance from a UI consultant, I implemented striking changes to Agiloft's end user interface.</p>
+      
+      <!-- Second Photo Grid-->
+      <div class="w3-display-container">
+        <div class="w3-third">
+          <div class="w3-display-container margin-small w3-card">
+            <div style="position:relative">
+              <a href="https://medium.com/@anna.sarai.rosenberg/designing-products-for-abuse-7d6ca583ff7a" target="_new"><img src="img/2005-06-03-cradle2-sm2.jpg" alt="Image shows a red fractal on a white background, roughly shaped like a cradle." style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i><i class="fa fa-external-link fa-fw portfolio-overlay-bottom"></i></a>
+            </div>
+            <div class="w3-container w3-white">
+              <p><b>Designing Products for Abuse</b></p>
+              <p>Products must be designed, from the very beginning, with potential abuse in mind. Fixing the problem starts from asking the right questions. I wrote about some of those questions, and present some research about online harassment.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="w3-third">
-        <div class="w3-display-container margin-small w3-card">
-          <a href="https://medium.com/shenomads/respectful-collection-of-demographic-data-56de9fcb80e2" target="_new"><img src="img/ideal-gender3.png" alt="Guidelines for Respectful Collection of Demographic Data" style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i></a>
-          <div class="w3-container w3-white">
-            <p><b>Guidelines for Respectful Collection of Demographic Data</b></p>
-            <p>Demographic data may be critical to your mission. This article establishes guidelines, explains some reasoning, and provides examples.</p>
+        <div class="w3-third">
+          <div class="w3-display-container margin-small w3-card">
+            <div style="position:relative">
+              <a href="https://blog.prototypr.io/ui-of-likes-on-social-media-dfcd3baa4081" target="_new"><img src="img/fb-command_line-suggestion.png" alt="Facebook reaction UI suggestion" style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i><i class="fa fa-external-link fa-fw portfolio-overlay-bottom"></i></a>
+            </div>
+            <div class="w3-container w3-white">
+              <p><b>UI of Likes on Social Media</b></p>
+              <p>Have you ever stepped into an elevator and pressed a button — then pressed it again because you’re not sure it worked? Social media UI often has this problem.</p>
+            </div>
           </div>
         </div>
+        <div class="w3-third">
+          <div class="w3-display-container margin-small w3-card">
+            <div style="position:relative">
+              <a href="https://codepen.io/saraislet/pen/PbNovr" target="_new"><img src="img/codevember-2016-day_11.png" alt="Image shows purple concentric circles connected by green lines, rotating and oscillating" style="width:100%" class="w3-hover-opacity"><i class="fa fa-codepen fa-2x fa-fw portfolio-overlay fa-inverse"></i><i class="fa fa-external-link fa-fw fa-inverse portfolio-overlay-bottom"></i></a>
+            </div>
+            <div class="w3-container w3-white">
+              <p><b>CodePen experiment</b></p>
+              <p>I venture into generative art with JS.</p>
+              <p>(JavaScript)</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="w3-third w3-display-container"> -->
+          <!-- g src="img/404-record.png" alt="Record #404" style="width:100%" class=""> -->
+          <!-- <div class="w3-container w3-white"> -->
+            <!-- <p><b>Record #404</b></p> -->
+            <!-- <p></p> -->
+          <!-- </div> -->
+        <!-- </div>  -->
       </div>
     </div>
-    
-    <!-- Second Photo Grid-->
-    <div class="w3-display-container">
-      <div class="w3-third">
-        <div class="w3-display-container margin-small w3-card">
-          <a href="https://medium.com/@anna.sarai.rosenberg/designing-products-for-abuse-7d6ca583ff7a" target="_new"><img src="img/2005-06-03-cradle2-sm2.jpg" alt="Image shows a red fractal on a white background, roughly shaped like a cradle." style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i></a>
-          <div class="w3-container w3-white">
-            <p><b>Designing Products for Abuse</b></p>
-            <p>Products must be designed, from the very beginning, with potential abuse in mind. Fixing the problem starts from asking the right questions. I wrote about some of those questions, and present some research about online harassment.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-third">
-        <div class="w3-display-container margin-small w3-card">
-          <a href="https://blog.prototypr.io/ui-of-likes-on-social-media-dfcd3baa4081" target="_new"><img src="img/fb-command_line-suggestion.png" alt="Facebook reaction UI suggestion" style="width:100%" class="w3-hover-opacity"><i class="fa fa-medium fa-fw fa-2x portfolio-overlay"></i></a>
-          <div class="w3-container w3-white">
-            <p><b>UI of Likes on Social Media</b></p>
-            <p>Have you ever stepped into an elevator and pressed a button — then pressed it again because you’re not sure it worked? Social media UI often has this problem.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-third">
-        <div class="w3-display-container margin-small w3-card">
-          <a href="https://codepen.io/saraislet/pen/PbNovr" target="_new"><img src="img/codevember-2016-day_11.png" alt="Image shows purple concentric circles connected by green lines, rotating and oscillating" style="width:100%" class="w3-hover-opacity"><i class="fa fa-codepen fa-fw fa-2x portfolio-overlay fa-inverse"></i></a>
-          <div class="w3-container w3-white">
-            <p><b>CodePen experiment</b></p>
-            <p>I venture into generative art with JS.</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="w3-third w3-display-container"> -->
-        <!-- g src="img/404-record.png" alt="Record #404" style="width:100%" class=""> -->
-        <!-- <div class="w3-container w3-white"> -->
-          <!-- <p><b>Record #404</b></p> -->
-          <!-- <p></p> -->
-        <!-- </div> -->
-      <!-- </div>  -->
-    </div>
-    
+
     <!-- Modal details for portfolio items -->
     <div id="modal-EUI" class="w3-modal" onclick="this.style.display='none'">
       <span class="modal-button w3-hover-cherry w3-xlarge w3-display-topright">&times;</span>
@@ -199,7 +253,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <section id="about">
       <div class="w3-container w3-padding-large" style="margin-bottom:32px">
         <h2><b>About Me</b></h2>
-        <p class="alt">I'm looking for opportunities primarily in technical product or program management. I excel at process improvement, agile SDLC, and gathering business or technical requirements. I have experience with SaaS, cloud security, education, data analysis, and CRM/contract management systems.</p>
+        <p class="alt">I'm looking for opportunities primarily in product development or data. I excel at process improvement, agile SDLC, documentation, and gathering business or technical requirements. I have experience with SaaS, cloud security, education, data analysis, and CRM/contract management systems.</p>
         <h4 style="margin-top:2em"><b>What I'm looking for</b></h4>
         <p class="alt">I want to work for a company that invests in the growth of its employees, and a company that invests strategically in long-term growth and stability.</p>
         <h4 style="margin-top:2em"><b>Career Goals</b></h4>
@@ -271,7 +325,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <section class="contact" style="padding: 0">
       <footer class="w3-container w3-padding-32 w3-dark-grey">
           <h4 id="contact"><b>Contact Me</b></h4>
-          <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+          <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 auto; max-width: 1000px">
             <a href="mailto:hi@sar.ai"><div class="w3-third w3-greym" style="border-top-left-radius: 6px; border-bottom-left-radius: 6px;">
               <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey fade"></i></p>
               <p>hi@sar.ai</p>
