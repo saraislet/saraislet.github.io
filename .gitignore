@@ -1,5 +1,23 @@
+<<<<<<< HEAD
 # Secrets
 secrets.*
+=======
+# Don't copy private tokens nor local files to public repository #
+tokens.py
+*local.py
+local*
+
+# Python files #
+venv
+*.pyc
+staticfiles
+.env
+
+/Pipfile
+
+# Hugo local files #
+/public
+>>>>>>> 05fdb019b82126289d3093a3cfc376f7bd83ca0d
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
