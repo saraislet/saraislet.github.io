@@ -28,6 +28,11 @@ a {
     }
 }  
 
+.bg-grey-fade-bottom {
+  background-image: linear-gradient(to bottom, rgba(187,187,187,1), rgba(187,187,187,0));
+  min-height: 3em;
+}
+
 .fade {
   opacity: 1;
   transition: opacity .25s ease-in-out;
@@ -219,9 +224,14 @@ p.alt {
         background-position: left bottom;
 			}
 
-			/* #main > section#skills { */
-				/* text-align: left; */
-			/* } */
+       #main > section#about { 
+         padding: 0 0;
+       } 
+
+			 #main > section#skills { 
+         padding: 0 0;
+				 text-align: left; 
+			 } 
 
 /* Image */
 
