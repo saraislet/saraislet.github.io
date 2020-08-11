@@ -166,6 +166,8 @@ p.alt {
   padding: 0.3em 0;
 }
 
+#intro {}
+
 .main,
 #main {
     /* transition: margin-left .4s */
