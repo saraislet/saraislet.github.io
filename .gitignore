@@ -15,6 +15,9 @@ staticfiles
 
 /Pipfile
 
+# MacOS
+.DS_Store
+
 # Hugo local files #
 /public
 >>>>>>> 05fdb019b82126289d3093a3cfc376f7bd83ca0d
